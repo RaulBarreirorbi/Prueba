@@ -12,13 +12,13 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
-            if (true){ //nunca poner if true
+            if (true) { //nunca poner if true
                 System.out.println("Hello desde develop");
             }
             int j = 0;
-            while (j < 10){
+            while (j < 20) {
                 System.out.println("j = " + j);
-                j = j ++;
+                j = j++;
             }
         }
     }
